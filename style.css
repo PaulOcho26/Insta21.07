@@ -1,13 +1,40 @@
- <style>
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
-            gap: 15px;
-            margin-top: 2em;
-        }
-        .gallery img {
-            width: 100%;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px #0002;
-        }
-    </style>
+.notes {
+    display: flex;
+    gap: 10px;           /* espace entre les notes */
+    flex-wrap: wrap;     /* optionnel : va à la ligne si trop de notes */
+}
+
+.notes p {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.notes img {
+    max-width: 180px;
+    height: auto;
+    border-radius: 5px;
+    /* Optionnel : pour le style */
+    box-shadow: 0 2px 8px #0001;
+}
+
+.notes img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.conteneur {
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+  height: 100vh;           /* hauteur du conteneur pour le centrage vertical */
+}
+
+.conteneur img {
+    max-width: 180px;
+    height: auto;
+}
+
