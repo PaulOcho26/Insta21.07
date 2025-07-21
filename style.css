@@ -1,0 +1,13 @@
+ <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+            gap: 15px;
+            margin-top: 2em;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px #0002;
+        }
+    </style>
