@@ -6,9 +6,13 @@
     <title>Document</title>
 </head>
 <body>
+
+<h1> Insta du lundi 21 juillet </h1>
+
     <form action="upload-photo.php" method="post" enctype="multipart/form-data">
         <input type="file" name="picture">
         <button>Envoyer</button>
-    </form>
+            </form>
+
 </body>
 </html>
