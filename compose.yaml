@@ -1,0 +1,8 @@
+services:
+  app-service:
+    image: php:8.2-apache
+    container_name: Insta21.07_container
+    ports:
+      - "8005:80"
+    volumes:
+      - .:/var/www/html
